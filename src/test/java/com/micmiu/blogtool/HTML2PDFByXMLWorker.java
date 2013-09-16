@@ -1,4 +1,4 @@
-package com.micmiu.blogtool.test;
+package com.micmiu.blogtool;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -60,7 +60,7 @@ public class HTML2PDFByXMLWorker {
 	}
 
 	public static void testPDFByFile() throws Exception {
-		String rootPath = "d:/test/itext/";
+		String rootPath = "/Users/micmiu/no_sync/testdata/itext/";
 		String htmlFile = "blog-2.html";
 		String pdfFile = rootPath + "blog-2.pdf";
 
@@ -75,7 +75,7 @@ public class HTML2PDFByXMLWorker {
 
 	public static void testPDFByHTML(String blogURL) throws Exception {
 		IHtmlHandler hander = new JsoupHtmlHandler();
-		String rootPath = "d:/test/itext/";
+		String rootPath = "/Users/micmiu/no_sync/testdata/itext/";
 		String[] infoArr = hander.extractBlogInfo(blogURL);
 		System.out.println(" title    >>: " + infoArr[0]);
 		System.out.println(" categroy >>: " + infoArr[1]);
@@ -87,7 +87,7 @@ public class HTML2PDFByXMLWorker {
 
 	public static void testPDFByElement(String blogURL) throws Exception {
 		IHtmlHandler hander = new JsoupHtmlHandler();
-		String rootPath = "d:/test/itext/";
+		String rootPath = "/Users/micmiu/no_sync/testdata/itext/";
 		String[] infoArr = hander.extractBlogInfo(blogURL);
 		System.out.println(" title    >>: " + infoArr[0]);
 		System.out.println(" categroy >>: " + infoArr[1]);

@@ -1,4 +1,4 @@
-package com.micmiu.blogtool.test;
+package com.micmiu.blogtool;
 
 import java.io.FileOutputStream;
 
@@ -7,6 +7,12 @@ import com.itextpdf.text.PageSize;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.micmiu.blogtool.utils.MyContants;
 
+/**
+ * 
+ * @author <a href="http://www.micmiu.com">Michael</a>
+ * @time Create on 2013-9-16 上午9:21:02 
+ * @version 1.0
+ */
 public class PDFCover {
 
 	/**
@@ -14,7 +20,7 @@ public class PDFCover {
 	 */
 	public static void main(String[] args) {
 		
-		String pdfFile = "d:/test/itext/pdfcover.pdf";
+		String pdfFile = "/Users/micmiu/no_sync/testdata/itext/pdfcover.pdf";
 		Document document = new Document(PageSize.A4);
 		try {
 

@@ -18,7 +18,6 @@ import com.itextpdf.text.pdf.BaseFont;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.text.pdf.draw.LineSeparator;
 import com.micmiu.blogtool.utils.BlogUtil;
-import com.micmiu.blogtool.utils.MyContants;
 import com.micmiu.blogtool.vo.BlogInfo;
 import com.micmiu.blogtool.vo.Category;
 

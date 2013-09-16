@@ -20,6 +20,12 @@ import com.micmiu.blogtool.utils.FileUtil;
 import com.micmiu.blogtool.vo.BlogInfo;
 import com.micmiu.blogtool.vo.Category;
 
+/**
+ * 
+ * @author <a href="http://www.micmiu.com">Michael</a>
+ * @time Create on 2013-9-16 上午9:15:44 
+ * @version 1.0
+ */
 public class BlogCategory {
 
 	public static void main(String[] args) throws Exception {
@@ -39,7 +45,6 @@ public class BlogCategory {
 		// for (Map.Entry<String, Category> entry : categoryMap.entrySet()) {
 		// printCateMap(entry.getValue(), "");
 		// }
-
 
 	}
 

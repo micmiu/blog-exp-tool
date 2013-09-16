@@ -7,8 +7,13 @@ import java.util.List;
 import com.google.code.http4j.Client;
 import com.google.code.http4j.Response;
 import com.google.code.http4j.impl.BasicClient;
-import com.google.code.http4j.utils.Metrics;
 
+/**
+ * 
+ * @author <a href="http://www.micmiu.com">Michael</a>
+ * @time Create on 2013-9-16 上午9:15:27 
+ * @version 1.0
+ */
 public class MyBlogClient {
 
 	/**

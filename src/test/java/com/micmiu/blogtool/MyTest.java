@@ -1,4 +1,4 @@
-package com.micmiu.blogtool.test;
+package com.micmiu.blogtool;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,9 +12,12 @@ import com.micmiu.blogtool.utils.MyContants;
 import com.micmiu.blogtool.vo.BlogInfo;
 import com.micmiu.blogtool.vo.Category;
 
+
 /**
- * Hello world!
  * 
+ * @author <a href="http://www.micmiu.com">Michael</a>
+ * @time Create on 2013-9-16 上午9:15:21 
+ * @version 1.0
  */
 public class MyTest {
 
