@@ -17,16 +17,19 @@ public class ExpSimpleTool {
 
 		String pdfFile = MyContants.EXP_ROOT_PATH + "micmiu.com_"
 				+ FileUtil.getDateSuffix() + ".pdf";
+		//根据博客首页导出所有的文章
 //		expHandler.expBlogByIndexURL(pdfFile, MyContants.MY_BLOG_URL);
 
+		//根据pdfobjcet生产PDF文件
 		expHandler.expBlogByFileList(pdfFile, MyContants.EXP_OBJ_PATH);
-//
-//		expHandler.expBlogByFile(pdfFile, MyContants.EXP_ROOT_PATH
-//				+ "micmiu_2012-12-12.obj");
 
+		//根据指定obj生产pdf
+//		expHandler.expBlogByFile(pdfFile, MyContants.EXP_ROOT_PATH+ "micmiu_2012-12-12.obj");
+
+		//根据url导出当前的文章
 //		expHandler.expBlogByPageURL(MyContants.MY_BLOG_URL);
 
-//		String blogURL = "http://www.micmiu.com/j2ee/jta/jta-spring-atomikos/";
+//		String blogURL = "http://www.micmiu.com/exception/deprecated-restricted-api/";
 //		expHandler.expBlogByBlogURL(blogURL);
 		System.out.println("--------------E N D");
 
